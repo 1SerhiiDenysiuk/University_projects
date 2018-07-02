@@ -1,4 +1,2 @@
-name, firm, furnitureType, toMakeAShape
-hello, Bosh, armchair, dfgdfg
-name, firm, furnitureType, measureInstrument
-hello, Bosh, armchair, 26.5
+name, firm, furnitureTypehello, Bosh, armchair, dfgdfg
+name, firm, furnitureTypehello, Bosh, armchair, 26.5

@@ -9,7 +9,7 @@ public class InstrumentWriter {
         try {
             FileWriter fileWriter=new FileWriter("instrument.txt");
             for (Instrument instrument:list){
-                fileWriter.write(instrument.getHeaders());
+                fileWriter.write(instrument.Headers());
                 fileWriter.write(instrument.toCSV());
             }
             fileWriter.close();

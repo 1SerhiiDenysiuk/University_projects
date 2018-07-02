@@ -2,6 +2,7 @@ package iot.lviv.ua;
 
 public class Instrument {
 
+    private int id;
     private String name;
     private Firm firm;
     private FurnitureType furnitureType;
@@ -48,7 +49,7 @@ public class Instrument {
 
     }
 
-    public String getHeaders(){
+    public String Headers(){
         return "name, firm, furnitureType";
     }
 
@@ -57,4 +58,11 @@ public class Instrument {
     }
 
 
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 }

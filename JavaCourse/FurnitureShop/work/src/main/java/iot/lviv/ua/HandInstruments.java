@@ -30,7 +30,7 @@ public class HandInstruments extends Instrument {
 
 
     public final String getHeaders(){
-        return super.getHeaders()+", toMakeAShape\n";
+        return super.Headers()+", toMakeAShape\n";
     }
 
     public final String toCSV(){

@@ -31,7 +31,7 @@ public class MeasuringInstruments extends Instrument {
     }
 
     public final String getHeaders(){
-        return super.getHeaders()+", measureInstrument\n";
+        return super.Headers()+", measureInstrument\n";
     }
 
     public final String toCSV(){
