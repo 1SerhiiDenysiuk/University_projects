@@ -1,0 +1,4 @@
+name, firm, furnitureType, toMakeAShape
+hello, Bosh, armchair, dfgdfg
+name, firm, furnitureType, measureInstrument
+hello, Bosh, armchair, 26.5

@@ -48,5 +48,13 @@ public class Instrument {
 
     }
 
+    public String getHeaders(){
+        return "name, firm, furnitureType";
+    }
+
+    public String toCSV(){
+        return name+", "+firm.toString()+", "+furnitureType.toString();
+    }
+
 
 }

@@ -10,7 +10,7 @@ public class MeasuringInstruments extends Instrument {
 
     public MeasuringInstruments(final String name, final Firm firm,
                                 final FurnitureType furnitureType,
-                                final double measureInstrument) {
+                                final double measureDistance) {
         super(name, firm, furnitureType);
         this.measureDistance = measureDistance;
 
@@ -28,5 +28,13 @@ public class MeasuringInstruments extends Instrument {
 
     public final void setMeasureDistance(final double measureDistance) {
         this.measureDistance = measureDistance;
+    }
+
+    public final String getHeaders(){
+        return super.getHeaders()+", measureInstrument\n";
+    }
+
+    public final String toCSV(){
+        return super.toCSV()+", "+String.valueOf(measureDistance)+"\n";
     }
 }

@@ -28,4 +28,13 @@ public class HandInstruments extends Instrument {
                 + toMakeAShape + "," + super.toString() ;
     }
 
+
+    public final String getHeaders(){
+        return super.getHeaders()+", toMakeAShape\n";
+    }
+
+    public final String toCSV(){
+        return super.toCSV()+", "+toMakeAShape+"\n";
+    }
+
 }
